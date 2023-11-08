@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+}
+
+.container {
+    background-color: rgba(255, 225, 225, 0.1);
+    width: 70vh !important;
+    height: 74vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px #000;
+    font-weight: bold;
+    margin-right: 36px !important;
+}
+
+.container_ {
+    background-color: rgba(255, 225, 225, 0.1);
+    width: 41vh !important;
+    height: 36vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px #000;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.c_ {
+    background-color: rgba(255, 225, 225, 0.1);
+    width: 33vw !important;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px #000;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+
+input {
+    font-weight: bold;
+    width: 103%;
+    height: 36px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.h-1 {
+    /* display: flex; */
+    margin-bottom: 23px;
+    font-size: 20px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+
+.field {
+    width: 50%;
+    float: left;
+    color: #c0c0c0;
+}
+
+.field input {
+    margin: 10px 1%;
+    padding: 8px 1%;
+    width: 90%;
+}
+
+.field select {
+    margin: 10px 1%;
+    padding: 8px 1%;
+    width: 94%;
+    font-weight: bold;
+}
+
+
+
+.general {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    /* display: flex; */
+    /* */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 11px; */
+    border-radius: initial;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.circular_image {
+    display: flex;
+    justify-content: center;
+}
+
+.logoName,
+.job {
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+
+.logo_Date {
+    display: block;
+    margin-left: 24px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin: 17px;
+}
+
+.text_ {
+    display: flex;
+    /* color: #ccc; */
+    margin: 20px;
+}
+
+.lorem {
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+textarea {
+    width: 192%;
+    height: 305px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.rowdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 16vh;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+    background-color: #e7e7e7;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+}
